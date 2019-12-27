@@ -4,13 +4,15 @@ namespace CodeProblems.ProblemBook {
     public class Problem1 : ProblemBase {
         public override void Execute() {
             Foo();
-            Foo(new object());
-            Foo(1);
-            Foo(string.Empty);
             Foo(null);
             Foo(new Bar());
             Foo(new Bar(), new Bar());
             Foo(new Bar(), new object());
+
+            // custom
+            Foo(new object());
+            Foo(1);
+            Foo(string.Empty);
 
             Console.ReadLine();
         }
