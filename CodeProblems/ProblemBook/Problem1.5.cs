@@ -2,6 +2,8 @@
 
 namespace CodeProblems.ProblemBook {
     public class Problem1_5 : ProblemBase {
+        public override double Number { get; set; } = 1.5;
+
         public override void Execute() {
             Console.WriteLine("Object-oriented programming Problems");
             Console.WriteLine($"{nameof(Problem1_5)} start >>>>>>>>>>>> ");
