@@ -1,15 +1,15 @@
 ﻿using System;
 
 namespace CodeProblems.ProblemBook {
-    public class Problem5 : ProblemBase {
+    public class Problem1_5 : ProblemBase {
         public override void Execute() {
             Console.WriteLine("Object-oriented programming Problems");
-            Console.WriteLine($"\n{nameof(Problem5)} start >>>>>>>>>>>> ");
+            Console.WriteLine($"{nameof(Problem1_5)} start >>>>>>>>>>>> ");
 
             Foo<int>.Bar++;
             Console.WriteLine(Foo<double>.Bar);
 
-            Console.WriteLine($"{nameof(Problem5)} end <<<<<<<<<<<< \n");
+            Console.WriteLine($"{nameof(Problem1_5)} end <<<<<<<<<<<< \n");
             Console.WriteLine("End of the Object-oriented programming Problems\n\n");
             Console.ReadKey();
         }

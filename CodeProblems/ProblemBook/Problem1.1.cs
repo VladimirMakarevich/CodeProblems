@@ -1,10 +1,10 @@
 ﻿using System;
 
 namespace CodeProblems.ProblemBook {
-    public class Problem1 : ProblemBase {
+    public class Problem1_1 : ProblemBase {
         public override void Execute() {
             Console.WriteLine("Object-oriented programming Problems");
-            Console.WriteLine($"{nameof(Problem1)} start >>>>>>>>>>>> ");
+            Console.WriteLine($"{nameof(Problem1_1)} start >>>>>>>>>>>> ");
 
             Foo();
             Foo(null);
@@ -17,7 +17,7 @@ namespace CodeProblems.ProblemBook {
             Foo(1);
             Foo(string.Empty);
 
-            Console.WriteLine($"{nameof(Problem1)} end <<<<<<<<<<<< \n");
+            Console.WriteLine($"{nameof(Problem1_1)} end <<<<<<<<<<<< \n");
             Console.ReadKey();
         }
 

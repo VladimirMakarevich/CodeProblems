@@ -1,22 +1,22 @@
 ﻿using System;
 
 namespace CodeProblems.ProblemBook {
-    public class Problem2 : ProblemBase {
+    public class Problem1_2 : ProblemBase {
         public override void Execute() {
             Console.WriteLine("Object-oriented programming Problems");
-            Console.WriteLine($"\n{nameof(Problem2)} start >>>>>>>>>>>> ");
+            Console.WriteLine($"{nameof(Problem1_2)} start >>>>>>>>>>>> ");
 
             new Bar().Qux(42);
             new Baz().Qux(42);
 
-            Console.WriteLine($"\nPress key to continuous {nameof(Problem2)} >>> ");
+            Console.WriteLine($"\nPress key to continuous {nameof(Problem1_2)} >>> ");
             Console.ReadLine();
 
             this.Write(1.0, 1);
             this.Write(1, 1.0);
             // this.Write(1, 1); error
 
-            Console.WriteLine($"{nameof(Problem2)} end <<<<<<<<<<<< \n");
+            Console.WriteLine($"{nameof(Problem1_2)} end <<<<<<<<<<<< \n");
             Console.ReadKey();
         }
 

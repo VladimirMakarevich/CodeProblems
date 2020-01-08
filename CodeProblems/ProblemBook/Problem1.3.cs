@@ -1,14 +1,14 @@
 ﻿using System;
 
 namespace CodeProblems.ProblemBook {
-    public class Problem3 : ProblemBase {
+    public class Problem1_3 : ProblemBase {
         public override void Execute() {
             Console.WriteLine("Object-oriented programming Problems");
-            Console.WriteLine($"\n{nameof(Problem3)} start >>>>>>>>>>>> ");
+            Console.WriteLine($"{nameof(Problem1_3)} start >>>>>>>>>>>> ");
 
             new Baz();
 
-            Console.WriteLine($"{nameof(Problem3)} end <<<<<<<<<<<< \n");
+            Console.WriteLine($"{nameof(Problem1_3)} end <<<<<<<<<<<< \n");
             Console.ReadKey();
         }
 
