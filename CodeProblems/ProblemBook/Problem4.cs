@@ -3,10 +3,15 @@
 namespace CodeProblems.ProblemBook {
     public class Problem4 : ProblemBase {
         public override void Execute() {
+            Console.WriteLine($"\n{nameof(Problem4)} start >>>>>>>>>>>> ");
+
             new Baz();
+
+            Console.WriteLine($"{nameof(Problem4)} end <<<<<<<<<<<< \n");
+            Console.ReadKey();
         }
 
-        public class Foo {
+        private class Foo {
             public Foo() {
                 Qux();
             }
@@ -16,7 +21,7 @@ namespace CodeProblems.ProblemBook {
             }
         }
 
-        public class Bar : Foo {
+        private class Bar : Foo {
             protected string name;
 
             public Bar() {
@@ -32,7 +37,7 @@ namespace CodeProblems.ProblemBook {
             }
         }
 
-        public class Baz : Bar {
+        private class Baz : Bar {
             public Baz() {
                 name = "Baz";
                 Qux();

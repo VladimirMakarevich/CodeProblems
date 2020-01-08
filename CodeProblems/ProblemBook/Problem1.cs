@@ -3,6 +3,8 @@
 namespace CodeProblems.ProblemBook {
     public class Problem1 : ProblemBase {
         public override void Execute() {
+            Console.WriteLine($"{nameof(Problem1)} start >>>>>>>>>>>> ");
+
             Foo();
             Foo(null);
             Foo(new Bar());
@@ -14,7 +16,8 @@ namespace CodeProblems.ProblemBook {
             Foo(1);
             Foo(string.Empty);
 
-            Console.ReadLine();
+            Console.WriteLine($"{nameof(Problem1)} end <<<<<<<<<<<< \n");
+            Console.ReadKey();
         }
 
         private static void Foo(object a) {
