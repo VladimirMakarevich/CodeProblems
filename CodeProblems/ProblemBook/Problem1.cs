@@ -3,8 +3,7 @@
 namespace CodeProblems.ProblemBook {
     public class Problem1 : ProblemBase {
         public override void Execute() {
-            Console.WriteLine("Object-oriented programming Problems\n\n");
-
+            Console.WriteLine("Object-oriented programming Problems");
             Console.WriteLine($"{nameof(Problem1)} start >>>>>>>>>>>> ");
 
             Foo();

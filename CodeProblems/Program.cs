@@ -10,6 +10,7 @@ namespace CodeProblems {
             var problems = assembly.DefinedTypes
                 .Where(type => typeof(ProblemBase).GetTypeInfo()
                                    .IsAssignableFrom(type.AsType()) && !type.IsAbstract)
+                .OrderBy(problem => problem.Name)
                 .ToList();
 
             foreach (var problem in problems) {
